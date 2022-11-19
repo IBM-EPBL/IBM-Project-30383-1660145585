@@ -1,0 +1,49 @@
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Index </title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">				
+        <link rel="stylesheet" href="/static/input.css">
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Hi</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" href="{{ url_for('login') }}">Login</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="{{ url_for('register') }}">Register</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+		<div class="content">
+            <center><h3>Data Description </h3></center>
+            <p>The heart disease is base on different parameter of medical value , here we considered 14 field of data</p>
+            <p>&emsp;&emsp;1. AGE => basic patient field </p>
+            <p>&emsp;&emsp;2. SEX => basic patient field</p>
+            <p>&emsp;&emsp;3. Chest Pain Type => four types 1,2,3,4</p>
+            <p>&emsp;&emsp;4. BP => blood pressure value should be in mmHg measure </p>
+            <p>&emsp;&emsp;5. Cholesterol =>it is mg/dl </p>
+            <p>&emsp;&emsp;6. FBS over 120 => fasting blood sugar level in mmol/dl</p>
+            <p>&emsp;&emsp;7. EKG Results =>helps to identity unususal fast rate of heart</p>
+            <p>&emsp;&emsp;8. Max HR => heart beat</p>
+            <p>&emsp;&emsp;9. Exercise agina</p>
+            <P>&emsp;&emsp;10. ST depression => This value is in decimal form beacuse it shows the myocardial ischemia or an emergent condition</P>
+            <p>&emsp;&emsp;11. Slope of ST => ST changes with respect to HR</p>
+            <p>&emsp;&emsp;12. Number of vessels fluro => ranges from 0 - 3</p>
+            <p>&emsp;&emsp;13. thallium => ranges from 0 - 7</p>
+            <br>
+            <center><h4>With the help of these data we refereing that their is either presence or absence of emergency condition of heart disease</h4></center>
+	    </div>
+	</body>
+</html>
