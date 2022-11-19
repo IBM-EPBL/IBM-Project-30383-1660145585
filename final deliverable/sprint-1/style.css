@@ -1,0 +1,57 @@
+/* Store this code in 'style.css' file inside the 'static' folder*/
+body{
+    align-items: center;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.border{
+    padding: 80px 50px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background: #55b4b4;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: antiquewhite;
+    color: #aee0c9;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: aee0c9;
+    color: rgb(71, 71, 139);
+    border-radius: 10px;
+}
+    
+::placeholder {
+    color: antiquewhite;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #aee0c9;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: antiquewhite;
+    font-style: oblique;
+    font-weight: bold;
+}
