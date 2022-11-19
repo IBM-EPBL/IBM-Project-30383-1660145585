@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    background: antiquewhite;
+    color: #4a80a0;
+}
+  
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    border: 1px solid black;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    width: 98%;
+    height: fit-content;
+}
+h4{
+    margin: 5px;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    background: #aee0c9;
+    color: antiquewhite;
+}
